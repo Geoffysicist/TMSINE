@@ -14,7 +14,7 @@ while alive:
 > Follow me...
 
 <!---![red_blue_pill](assets/red-pill-blue-pill.jpg width=250)--->
-<img src="assets/red-pill-blue-pill.jpg" width="100" height="100"/>
+<img src="assets/red-pill-blue-pill.jpg" width="120" height="100"/>
 
 
 ## Background stuff
@@ -42,7 +42,7 @@ Have a look at the code on the in the main.py file. See if you can work out what
 ```
 """ Simple script introducing python using turtle.
 
-A script to introduce python 3.x to Year 11 SDD students @ Aurora College
+A script to introduce python 3.x
 Introduces basic concepts using the turtle module
 """
 ```
@@ -53,21 +53,7 @@ Line 2:
 
 There is no line 2 because it is important to use white-space in a way that keeps your code readable.
 
-Lines 7 to 13:
-
-```
-__author__ = "Dr G"
-__copyright__ = "Copyright 2018, NSW Dept. Ed."
-__license__ = "GPL"
-__version__ = "1.0.1"
-__maintainer__ = "Dr G"
-__email__ = "geoff.goldrick@det.nsw.edu.au"
-__status__ = "Development"
-```
-
-This is the metadata and is used to identify important information about the code. You normally wouldn't see this in an introduction to programming but I reckon good habits start early. In general you should have something that looks like lines 1 to 13 at the beginning of all of your code. Most of these fields are self evident, but for `__status__` you should use "Prototype" when you are doing the initial mucking around, "Development"  for your work in progress and "Production" for your final submission.
-
-Line 15:
+Line 7:
 
 ```
 import turtle as t
@@ -75,7 +61,7 @@ import turtle as t
 
 The python environment has a lot of standard inbuilt functions but often we want something more, so we add functionality by importing modules. For this exercise we need to import the _turtle_ module. We will give it the shorthand name 't' so we don't have to keep writing 'turtle' all the time.
 
-Line 17:
+Line 9:
 
 ```
 donatello = t.Turtle()
@@ -85,7 +71,7 @@ Creates a turtle. It might help if our first turtle was a technological genius s
 
 NOTE: Python is sensitive, case sensitive, that is. So typing `t.Turtle` is not the same as `t.turtle` and `donatello` is not the same as `Donatello.`
 
-Line 19:
+Line 11:
 
 ```
 donatello.forward(100)
@@ -98,9 +84,7 @@ To state the bleedin' obvious, this line moves donatello forward 100 pixels.
 
 This isn't the most exciting code in the world but it is better than the usual introduction to programming that just teaches you to print "hello world". Let's make it even better.
 
-First, edit the header block (lines 1 - 13) to change the author, email, status details etc.  Now let's get coding.
-
-For a start, donatello doesn't look much like a turtle so let's fix that . Copy and paste the code below to replace line 17.
+For a start, donatello doesn't look much like a turtle so let's fix that . Copy and paste the code below to replace line 11.
 
 ```
 donatello = t.Turtle()
@@ -144,7 +128,7 @@ for counter in range(4):
   raphael.circle(counter*10)  
 ```
 
-Run the code then describe what the following lines of code do:
+Run the code:
 
 ```
 raphael.penup()
@@ -158,8 +142,6 @@ and
 raphael.circle(counter*10)
 ```
 
-> put your answer here
->
 
 NOTE: Indentation is very important to python, each loop instruction affects everything that is indented below it. In other words, indentation defines the beginning and end of the loop.
 
@@ -180,8 +162,6 @@ for counter1 in range(10):
 # Fly little turtles
 
 Now its your turn. Using the [cheat sheet of turtle commands](/assets/Turtle Graphics.pdf) as your guide, play around for the rest of the lesson and try and make the most beautiful turtle art you can. By beautiful we mean not just visually but in terms of your coding as well.
-
-Submit your code before the next lesson and they will be judged by your peers and the best entry will win a gummy bear.
 
 # Resources
 
