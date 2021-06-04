@@ -13,7 +13,8 @@ while alive:
 
 > Follow me...
 
-![red_blue_pill](assets/red-pill-blue-pill.jpg =250x250)
+<!---![red_blue_pill](assets/red-pill-blue-pill.jpg width=250)--->
+<img src="assets/red-pill-blue-pill.jpg" width="100" height="100"/>
 
 
 ## Background stuff
