@@ -13,7 +13,7 @@ while alive:
 
 > Follow me...
 
-![red_blue_pill](assets/red-pill-blue-pill.jpg)
+![red_blue_pill](assets/red-pill-blue-pill.jpg =250x250)
 
 
 ## Background stuff
